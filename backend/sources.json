@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Nielsen Norman Group Articles",
+    "url": "https://www.nngroup.com/articles/rss/",
+    "tags": ["product design", "user psychology", "product design psychology"]
+  },
+  {
+    "name": "Behavioral Scientist",
+    "url": "https://behavioralscientist.org/feed/",
+    "tags": ["economic behavior", "economic psychology"]
+  },
+  {
+    "name": "The Decision Lab",
+    "url": "https://thedecisionlab.com/feed",
+    "tags": ["economic psychology", "user psychology"]
+  },
+  {
+    "name": "A List Apart (Design)",
+    "url": "https://alistapart.com/main/feed/",
+    "tags": ["product design"]
+  },
+  {
+    "name": "UX Collective",
+    "url": "https://uxdesign.cc/feed",
+    "tags": ["product design", "user psychology"]
+  }
+]
