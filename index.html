@@ -4,26 +4,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Product News</title>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Product News</h1>
-    <nav>
-      <button id="topBtn">Top</button>
-      <button id="latestBtn">Latest</button>
+  <header class="top-bar">
+    <span class="site-name">product-news</span>
+    <nav class="nav-links">
+      <a href="#" id="topLink">top</a>
+      <a href="#" id="latestLink">latest</a>
+      <a href="#" id="hnLink">hn</a>
       <select id="categorySelect">
-        <option value="">All Categories</option>
-        <option value="product-design">Product Design</option>
-        <option value="user-psych">User Psychology</option>
-        <option value="economic-behavior">Economic Behavior</option>
-        <option value="economic-psych">Economic Psychology</option>
-        <option value="product-design-psych">Product Design Psychology</option>
+        <option value="">all</option>
+        <option value="product-design">product design</option>
+        <option value="user-psych">user psychology</option>
+        <option value="economic-behavior">economic behavior</option>
+        <option value="economic-psych">economic psych</option>
+        <option value="product-design-psych">product design psych</option>
       </select>
     </nav>
   </header>
   <main id="articles">
+    <!-- articles will be injected here -->
   </main>
   <script src="script.js"></script>
 </body>
